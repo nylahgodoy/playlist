@@ -45,9 +45,10 @@ function emptySongInfo(){
 
 function addSongInfo(){
     // BELOW write the code to add new items to each of the arrays.
-    var name = $("#song").val();
-    songs.push(name)
-
+    var name = $("#songs").val();
+        songs.push(name)
+    var name = $("#artists").val();
+        artists.push(name)
 }
 
 $("#add").click(function() {
